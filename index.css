@@ -1,42 +1,68 @@
 body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e2c47; 
+    color: #f5f5f5; 
+}
+
+h1, h3 {
+    font-family: 'Lato', sans-serif;
+    color: #f8f8ff; 
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #cad3e3; 
+}
+
+.change-font-style {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    color: #a9bcdf; 
 }
+
 .container {
-    width: 80%;
+    width: 50%;
     margin: auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(30, 44, 71, 0.8); 
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 208, 255, 0.712);
+    background-image: url('https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
 }
+
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #2e4057; 
     text-align: left;
     padding: 8px;
 }
+
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #2e4057;
+    color: #fff;
 }
+
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #24395e; 
 }
+
 .button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #283e5b;
+    color: #e8e8ff; 
     padding: 10px 20px;
     border: none;
     cursor: pointer;
 }
+
 .button:hover {
-    background-color: #45a049;
+    background-color: #ff0000; 
 }
+
 .dynamic-content {
-    color: #555;
-    margin-top: 20px;
+    color: #ffe8e8; 
 }
