@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>My Personal Page</h1>
+    <p><strong>Name:</strong> Sergio Sepúlveda Véliz </p>
+    <p><strong>Major:</strong> </p>
+    <p><strong>Year of University Enrollment:</strong> 2019 </p>
+    <p><strong>Github:</strong> <a href="https://github.com/sasepulveda2">https://github.com/sasepulveda2</a></p>
+    <p><strong>Personal Summary:</strong> Mis pasiones son tocar, bajo, guitarra y batería... leer sobre horror y terror, claramente.</p>
+    
+    <h2>Skills</h2>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Expert</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Basic</td>
+        </tr>
+        <!-- Add more skills as needed -->
+    </table>
+
+    <div>
+        <h2>Update Section</h2>
+        <input type="text" id="dynamic-input" placeholder="Enter new content here...">
+        <button class="button" onclick="updateContent()">Update Content</button>
+        <div id="dynamic-content" class="dynamic-content">
+            Dynamic content will appear here after you press the button.
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
