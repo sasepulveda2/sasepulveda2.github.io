@@ -55,9 +55,10 @@
 </nav>
 <script>
 $(document).ready(function() {
-
+  // Hide all p elements initially
   $('.navbar-overlay p').hide();
 
+  // Show corresponding p element on li hover
   $('.nav-link').hover(function() {
     var target = $(this).attr('data-target');
     $('#' + target).show();
